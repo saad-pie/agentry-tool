@@ -1,7 +1,7 @@
 {
   "name": "@saadpie/agentry-tool",
   "version": "0.1.0",
-  "description": "Model-facing agentry_reason tool: consult agentry when the harness hits a capability wall",
+  "description": "Model-facing agentry tools for DeepSeek Harness",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
