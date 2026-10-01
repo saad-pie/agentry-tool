@@ -1,0 +1,27 @@
+{
+  "name": "@saadpie/agentry-tool",
+  "version": "0.1.0",
+  "description": "Model-facing agentry_reason tool: consult agentry when the harness hits a capability wall",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "cordis.patch.yml",
+    "package.json"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "entry": "lib/index.js",
+      "patch": "cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "^0.0.1-rc.1",
+    "@deepseek-ai/cordis": "^4.0.1-rc.1"
+  }
+}
